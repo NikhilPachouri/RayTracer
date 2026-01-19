@@ -1,0 +1,3 @@
+/Users/nikhil.pachouri/Downloads/New Bet Card - Atlantis/RayTracer/build/CMakeFiles/RayTracer.dir
+/Users/nikhil.pachouri/Downloads/New Bet Card - Atlantis/RayTracer/build/CMakeFiles/edit_cache.dir
+/Users/nikhil.pachouri/Downloads/New Bet Card - Atlantis/RayTracer/build/CMakeFiles/rebuild_cache.dir
