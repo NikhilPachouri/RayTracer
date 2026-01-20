@@ -16,7 +16,9 @@ int main() {
 
 
     auto focal_lenght = 1.0;
-    auto 
+    auto viewport_height = 2.0;
+    auto viewport_width = viewport_height * (image_width/image_height);
+    auto camera_center = point3(0,0,0);
 
 
 std::cout << "P3\n" 
