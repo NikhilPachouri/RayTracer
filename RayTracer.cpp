@@ -1,4 +1,9 @@
 #include <iostream>
+#include "vec3.h"
+#include "ray.h"
+#include "color.h"
+
+
 
 int main() {
     int image_width = 256;
