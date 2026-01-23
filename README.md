@@ -1,5 +1,2 @@
 # RayTracer
-Creating a RayTracer
-some change
-
-something added here
+I am trying to understand how ray tracing works.
