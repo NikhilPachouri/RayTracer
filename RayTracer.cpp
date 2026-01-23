@@ -3,8 +3,7 @@
 #include "ray.h"
 #include "color.h"
 
-
-bool hit_sphere(const point3& centre,double radius,const ray& r){
+double hit_sphere(const point3& centre,double radius,const ray& r){
 vec3 oc = centre - r.origin();
 auto a = dot(r.direction(),r.direction());
 auto b = -2.0 * dot(r.direction(),oc);
@@ -20,7 +19,7 @@ else {
 
 color ray_color (const ray& r){
 auto t = hit_sphere(point3(0,0,-1),0.5,r);
-if (t>0.0){
+if (t> 0.0){
     vec3 N = unit_vector(r.at(t) - vec3(0,0,-1));
     return 0.5*color(N.x()+1,N.y()+1,N.z());
 }
@@ -35,6 +34,7 @@ int main() {
     int image_width = 400;
     int image_height = int(image_width/aspect_ratio);
     image_height = (image_height<1) ? 1: image_height;
+    
 
 
     auto focal_length = 1.0;
@@ -50,12 +50,11 @@ int main() {
     
    auto viewport_upper_left = camera_center-vec3(0,0,focal_length) -  viewport_u/2 - viewport_v/2;
    auto pixel00_loc = viewport_upper_left + 0.5 * (pixel_delta_u + pixel_delta_v);
-
-std::cout << "P3\n" 
+ std::cout << "P3\n" 
           << image_width << ' ' << image_height 
           << "\n255\n";
 
-for (int j =0;j < image_height;j++){
+          for (int j =0;j < image_height;j++){
     std::clog <<"\rScanlines remaining" <<(image_height - j) <<' '<<std::flush;
 
     for(int i = 0; i<image_width; i++){
