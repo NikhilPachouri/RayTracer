@@ -5,6 +5,7 @@ ifndef RTWEEKEND_H
 #include <memory>
 #include <iostream>
 
+
 using std::shared_ptr;
 using std::make_shared;
 
@@ -18,5 +19,6 @@ inline double degrees_to_radians(double degrees) {
 #include "vec3.h"
 #include "ray.h"
 #include "color.h"
+#include "interval.h"
 
 #endif
