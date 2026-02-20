@@ -15,6 +15,8 @@ else {
   return    (-b-std::sqrt(discriminant))/(2.0*a);
 }
 
+
+
 }
 
 color ray_color (const ray& r){
