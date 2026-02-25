@@ -848,5 +848,6 @@ CMakeFiles/RayTracer.dir/RayTracer.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/uniform_random_bit_generator.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/weibull_distribution.h \
   /Users/nikhil.pachouri/Downloads/New\ Bet\ Card\ -\ Atlantis/Git\ Project/hittable.h \
+  /Users/nikhil.pachouri/Downloads/New\ Bet\ Card\ -\ Atlantis/Git\ Project/material.h \
   /Users/nikhil.pachouri/Downloads/New\ Bet\ Card\ -\ Atlantis/Git\ Project/hittbales_list.h \
   /Users/nikhil.pachouri/Downloads/New\ Bet\ Card\ -\ Atlantis/Git\ Project/sphere.h

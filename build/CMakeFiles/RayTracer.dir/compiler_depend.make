@@ -848,6 +848,7 @@ CMakeFiles/RayTracer.dir/RayTracer.cpp.o: /Users/nikhil.pachouri/Downloads/New\ 
   /Users/nikhil.pachouri/Downloads/New\ Bet\ Card\ -\ Atlantis/Git\ Project/hittable.h \
   /Users/nikhil.pachouri/Downloads/New\ Bet\ Card\ -\ Atlantis/Git\ Project/hittbales_list.h \
   /Users/nikhil.pachouri/Downloads/New\ Bet\ Card\ -\ Atlantis/Git\ Project/interval.h \
+  /Users/nikhil.pachouri/Downloads/New\ Bet\ Card\ -\ Atlantis/Git\ Project/material.h \
   /Users/nikhil.pachouri/Downloads/New\ Bet\ Card\ -\ Atlantis/Git\ Project/ray.h \
   /Users/nikhil.pachouri/Downloads/New\ Bet\ Card\ -\ Atlantis/Git\ Project/rtweekend.h \
   /Users/nikhil.pachouri/Downloads/New\ Bet\ Card\ -\ Atlantis/Git\ Project/sphere.h \
@@ -857,6 +858,8 @@ CMakeFiles/RayTracer.dir/RayTracer.cpp.o: /Users/nikhil.pachouri/Downloads/New\ 
 /Users/nikhil.pachouri/Downloads/New\ Bet\ Card\ -\ Atlantis/Git\ Project/vec3.h:
 
 /Users/nikhil.pachouri/Downloads/New\ Bet\ Card\ -\ Atlantis/Git\ Project/ray.h:
+
+/Users/nikhil.pachouri/Downloads/New\ Bet\ Card\ -\ Atlantis/Git\ Project/material.h:
 
 /Users/nikhil.pachouri/Downloads/New\ Bet\ Card\ -\ Atlantis/Git\ Project/interval.h:
 
